@@ -1,10 +1,20 @@
-# HarryCncBot
-CNC Robot Arm
-# Robotics Arm Project
+# ANNRA - Artificial Neural Network Robotics Arm
 
-Robotics Arm Project
+In the field of robotic control, artificial intelligence has become the most investigated modern technology. To implement artificial
+intelligence for robots correctly, it’s needed to have a trustable model of kinematics and dynamics. In this research, a 3-DOF
+sample of the industrial manipulator based on the ABB IRB 4400 model has been studied. Robot kinematics have been solved.
+For forward kinematics, the method uses the DH-parameter, and for inverse kinematics, it uses the geometric approach to get the
+end effector's final position. including with path-planning and path smoothing. For robot dynamics, the forward dynamics for
+controlling robot arm joints using feedforward control with a PI controller. while the inverse dynamic equation is derived by using
+Lagrange-Euler. Artificial neural networks (ANNs) solve the joint torque in a continuous path efficiently, overcoming the
+drawbacks of inverse dynamics. The innovative controller architecture outperforms prior strategies in terms of lowering position
+error in unusual situations and improving ANN accuracy in estimating robot joint angles. According to additional research, the
+use of artificial neural networks to inverse dynamics might considerably improve the performance of a 6-DOF robotics arm or a
+hyper-redundant manipulator in the future.
 
-ได้ออกแบบหุ่นยนต์แขนกล 6 Degree of Freedom จากสมการ Kinematics และ Dynamics โดยจะนำไปทำเป็นหุ่นยนต์วาดรูปได้ตามต้องการ (Drawing Robot) และ ยังเป็นส่วนหนึ่งของคลิป SuperAI2-2811 “[ทำยังไงถึงจะรอดใน Squid Game? (ด้วยหุ่นยนต์ และ AI)](https://www.youtube.com/watch?v=rd8h8sUJEe8&t=7s)” สามารถดู Code ได้ที่ GITHUB [https://github.com/huak95/HarryCncBot.git](https://github.com/huak95/HarryCncBot.git)
+ได้ออกแบบหุ่นยนต์แขนกล 6 Degree of Freedom จากสมการ Kinematics และ Dynamics โดยจะนำไปทำเป็นหุ่นยนต์วาดรูปได้ตามต้องการ (Drawing Robot) และ ยังเป็นส่วนหนึ่งของคลิป SuperAI2-2811 “[ทำยังไงถึงจะรอดใน Squid Game? (ด้วยหุ่นยนต์ และ AI)](https://www.youtube.com/watch?v=rd8h8sUJEe8&t=7s)” 
+
+Full paper [Inverse Dynamics Based Artificial Neural Network BFGS quasi-Newton backpropagation of 3 DOF Robotic Arm (IRB4400)](https://github.com/huak95/ANNRA/blob/main/Robotics_Arm_ANNs_full_paper.pdf)
 
 ![image](https://user-images.githubusercontent.com/38836072/163752505-b372ab42-f7cb-4bf6-bd88-717b0a918b6e.png)
 ![Slide2](https://user-images.githubusercontent.com/38836072/163752776-c89f0c79-f799-4c40-aed8-951547a8bc22.PNG)
