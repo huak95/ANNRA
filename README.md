@@ -22,9 +22,8 @@ Robotics Arm Project
 
 เป็นการทำงานคร่าวๆ ของโปรแกรม Robot CNC
 
-![Untitled](Images/Untitled%202.png)
+![image](https://user-images.githubusercontent.com/38836072/163751388-2d2fb88b-c54c-47af-9d18-4f5867b0f5db.png)
 
-![Untitled](Images/Untitled%203.png)
 
 # Control Theory Simulation
 
